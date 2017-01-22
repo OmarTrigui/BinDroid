@@ -1,0 +1,7 @@
+# ninja log v5
+0	43	0	CMakeFiles/system_0x81.dir/system_0x81.c.o	492a944ee00e4919
+43	52	0	/home/omar/Desktop/android-ndk/BinDroid/app/build/intermediates/cmake/debug/obj/armeabi/libsystem_0x81.so	b07ca3d55271d94e
+0	41	0	CMakeFiles/system_0x81.dir/system_0x81.c.o	492a944ee00e4919
+41	49	0	/home/omar/Desktop/android-ndk/BinDroid/app/build/intermediates/cmake/debug/obj/armeabi/libsystem_0x81.so	b07ca3d55271d94e
+0	40	0	CMakeFiles/system_0x81.dir/system_0x81.c.o	492a944ee00e4919
+40	48	0	/home/omar/Desktop/android-ndk/BinDroid/app/build/intermediates/cmake/debug/obj/armeabi/libsystem_0x81.so	b07ca3d55271d94e

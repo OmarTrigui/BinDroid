@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/omar/Desktop/android-ndk/BinDroid/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/omar/android-sdk/cmake/3.6.3155560/bin/cmake --build /home/omar/Desktop/android-ndk/BinDroid/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"system_0x81-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "system_0x81",
+			"buildCommand" : "/home/omar/android-sdk/cmake/3.6.3155560/bin/cmake --build /home/omar/Desktop/android-ndk/BinDroid/app/.externalNativeBuild/cmake/release/x86_64 --target system_0x81",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /home/omar/android-sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/omar/android-sdk/ndk-bundle/platforms/android-21/arch-x86_64 -Dsystem_0x81_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/omar/Desktop/android-ndk/BinDroid/app/src/main/cpp/system_0x81.c",
+					"workingDirectory" : "/home/omar/Desktop/android-ndk/BinDroid/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/omar/Desktop/android-ndk/BinDroid/app/build/intermediates/cmake/release/obj/x86_64/libsystem_0x81.so",
+			"toolchain" : "5527745623568737637"
+		}
+	},
+	"toolchains" : 
+	{
+		"5527745623568737637" : 
+		{
+			"cCompilerExecutable" : "/home/omar/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/omar/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

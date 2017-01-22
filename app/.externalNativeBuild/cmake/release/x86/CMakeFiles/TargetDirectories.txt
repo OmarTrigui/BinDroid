@@ -1,0 +1,3 @@
+/home/omar/Desktop/android-ndk/BinDroid/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/home/omar/Desktop/android-ndk/BinDroid/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/home/omar/Desktop/android-ndk/BinDroid/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/system_0x81.dir

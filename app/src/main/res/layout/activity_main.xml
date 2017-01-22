@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hello_jnicallback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bindroid.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="405dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="I'm useless ..."
+                android:ems="10"
+                tools:layout_editor_absoluteY="47dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:id="@+id/input" />
+
+
+            <TextView
+                android:text="00:00:00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tickView"
+                android:gravity="right"
+                android:textAppearance="@android:style/TextAppearance.Material.Large"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.85"
+                app:layout_constraintVertical_bias="0.110000014" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:layout_editor_absoluteY="421dp"
+            tools:layout_editor_absoluteX="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:id="@+id/hellojniMsg"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.42"
+                app:layout_constraintVertical_bias="0.45" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
